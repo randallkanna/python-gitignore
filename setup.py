@@ -5,6 +5,9 @@ setup(
     version='0.0.1',
     description='run addPythonIgnore on command line to create your python gitignore file',
     packages=['python_ignore'],
+    author = 'Randall Kanna',
+    download_url = '',
+    url = 'https://github.com/randallkanna/python_ignore',
     entry_points = {
         'console_scripts': ['addPythonIgnore=python_ignore:main']
     }
